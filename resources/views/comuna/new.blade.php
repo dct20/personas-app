@@ -28,6 +28,7 @@
                 <input type="text" required class="form-control" id="name" aria-describedby="nameHelp"
                     name="name" placeholder="Comuna name.">
             </div>
+
             <label for="municipality">Municipality:</label>
             <select class="form-select" id="municipality" name="code" required>
                 <option selected disabled value="">Choose one...</option>
