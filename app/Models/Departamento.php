@@ -14,8 +14,4 @@ class Departamento extends Model
     public $timestamps = false;
 
     
-    public function municipios()
-    {
-        return $this->hasMany(Municipio::class, 'depa_codi', 'depa_codi');
-    }
 }
